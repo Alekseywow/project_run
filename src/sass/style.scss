@@ -1,0 +1,18 @@
+@import 'base/variables';
+*{
+    font-family: 'MuseoSansCyrl', sans-serif;
+}
+body{
+    background-color: #F6F6F6;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/buttons';
+@import 'blocks/title';
+@import 'blocks/benefits';
