@@ -1,0 +1,104 @@
+.catalog{
+    margin-bottom: 70px;
+    &__tabs{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 46px;
+        margin-bottom: 0;
+        padding-left: 0;
+    }
+    &__tab{
+        width: 222px;
+        height: 52px;
+        background: rgba(0, 0, 0, 0.0001);
+        border: 2px solid #D0D0D0;
+        font-size: 18px;
+        line-height: 48px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #6B6B6B;
+        transform: skewX(-28deg);
+        margin: 0 5px;
+        cursor: pointer;
+        transition: all .5s;
+        &:hover{
+            box-shadow: 3px 3px 20px $main-color;
+            border: none;
+        }
+        div{
+            transform: skewX(28deg);
+        }
+
+        &_active{
+            color: #FFFFFF;
+            background-color: $main-color;
+            border: none;
+        }
+    }
+    &__content{
+        margin-top: 60px;
+    }
+    &-item{
+        width: 303px;
+        min-height: 442px;
+        border: 1px solid #E8E8E8;
+        padding: 20px 26px 21px;
+        &__img{
+            display: block;
+            max-width: 100%;
+            margin: 0 auto;
+            height: 200px;
+        }
+        &__subtitle{
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 25px;
+            color: #0D0D0D;
+            margin-top: 15px;
+            text-align: center;
+        }
+        &__descr{
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 22px;
+            text-align: center;
+            color: #0D0D0D;
+            margin-top: 15px;
+        }
+        &__link{
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 14px;
+            text-decoration-line: underline;
+            color: $main-color;
+            display: block;
+            text-align: center;
+            margin-top: 15px;
+        }
+        hr{
+            margin: 15px 0;
+            border-bottom: none;
+            background-color: #000;
+        }
+        &__footer{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        &__prices-old{
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 14px;
+            text-decoration-line: line-through;
+            color: #555555;
+        }
+        &__prices-new{
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 20px;
+            color: #050505;
+        }
+    }
+}

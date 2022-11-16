@@ -1,0 +1,90 @@
+@media (max-width: 990px){
+    .carousel{
+        &__inner{
+            width: 100%;
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 758px){
+    .benefits{
+        &__inner{
+            flex-wrap: wrap;
+            
+        }
+        &__item{
+            margin-top: 30px;
+        }
+    }
+}
+
+
+
+@media (max-width: 625px){
+    .header{
+        &__official{
+            display: none;
+        }
+    }
+    .title_left{
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+    .consultation{
+        &__descr{
+            font-size: 14px;
+            line-height: 18px;
+        }
+    }
+}
+
+@media (max-width: 536px){
+    .promo{
+        &__header{
+            font-size: 25px;
+            line-height: 25px;
+        }
+        &__subheader{
+            font-size: 12px;
+            line-height: 12px;
+            margin-top: 8px;
+        }
+    }
+    
+}
+
+@media (max-width: 427px){
+    .header{
+        flex-direction: column;
+        align-items: flex-start;
+        &__contacts{
+            margin: 0 auto;
+            margin-top: 30px;
+        }
+    }
+    .promo{
+        &__wrapper{
+            margin-top: 60px;
+        }
+        &__icons{
+            width: 100%;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        &__icon{
+            margin-top: 15px;
+        }
+    }
+    .button_main{
+        width: 100%;
+    }
+    .form-fort{
+        width: 100%;
+    }
+}
