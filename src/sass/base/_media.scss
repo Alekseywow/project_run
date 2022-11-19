@@ -82,6 +82,25 @@
             font-size: 13px;
             line-height: 15px;
         }
+        &__info{
+            width: 100%;
+        }
+    }
+
+    .modal{
+        max-width: 320px;
+        &__close{
+            top: -30px;
+            right: 10px;
+        }
+        &__subtitle{
+            font-size: 16px;
+            line-height: 16px;
+        }
+        &__descr{
+            font-size: 13px;
+        }
+
     }
     
 }
